@@ -7,9 +7,13 @@ class Registro():
         self.edad = edad
         self.avatar = avatar 
 
-    # Procedimientos y métodos de clase     
+
+    # Procedimientos y métodos de clase  
+    def mostrar_datos_usuario(self, username, password):
+        print(f'''
+        usuario: {self.username}
+        password: {self.password}
+        ''')
+
     def mostrar_jugador(self):
         print(f'Username: {self.username} \nPassword: {self.password} \nEdad: {self.avatar} ')
-
-    def mostrar_nombre(self):
-        pass
